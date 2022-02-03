@@ -1,0 +1,8 @@
+
+wordCount
+Read Alice.txt from data
+implement a print_words(filename) function that counts
+how often each word appears in the text and prints:
+word1 count1
+word2 count2
+

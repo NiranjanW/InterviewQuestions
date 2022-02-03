@@ -1,0 +1,10 @@
+Implement an algorithm to determine if a string has allunique characters ( ASCII class Test(unittest.Test):
+#class Test(unittest.Test):
+#     test_cases = [
+#         ("abcd", True),
+#         ("s4fad", True),
+#         ("", True),
+#         ("23ds2", False),
+#         ("hb 627jh=j ()", False),
+#         
+#     ]
