@@ -1,4 +1,4 @@
-ind the two entries that sum to 2020 and then multiply those two numbers together.
+Find the two entries that sum to 2020 and then multiply those two numbers together.
 
 For example, suppose your expense report contained the following:
 
@@ -8,4 +8,4 @@ For example, suppose your expense report contained the following:
 299
 675
 1456
-In this list, the two entries that sum to 2020 
+In this list, the two entries that sum to 2020 are [1721 , 299]

@@ -1,4 +1,4 @@
-Implement an algorithm to determine if a string has allunique characters ( ASCII class Test(unittest.Test):
+Implement an algorithm to determine if a string has all unique characters ( ASCII):
 #class Test(unittest.Test):
 #     test_cases = [
 #         ("abcd", True),
