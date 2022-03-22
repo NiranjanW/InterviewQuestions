@@ -6,3 +6,38 @@ how often each word appears in the text and prints:
 word1 count1
 word2 count2
 
+List<Integer> list = Arrays.asList(1721,979,366,299,675,1456);
+int sum =0; 
+for(int i =0 ; i < list.size(); i++) 
+{ 
+    if(sum == 2020)
+    {break;}
+    
+    if(i != list.size-1)
+        sum =    Stream.of(list.get(i),list.get(i+1)).mapToInt(i->i).sum().get();
+    }
+}
+    
+
+
+List<Integer> list = Arrays.asList(1721,979,366,299,675,1456);
+int sum =0; 
+for(int i =0 ; i < list.size(); i++) 
+{ 
+    if(sum == 2020)
+    {break;}
+
+     for(int j=0; j<list.size();j++)
+    {
+        sum  = 0 ;
+        if(i !=j)
+        {
+            sum = list.get(i) + list.get(j);
+            if(sum == 2020)
+            {
+                System.out.println("the pair is "+ list.get(i) + " "+list.get(j));
+                break;
+            }
+        }
+    }
+}

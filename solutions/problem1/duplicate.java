@@ -13,7 +13,18 @@ class duplicate {
     String str = "foo";
     System.out.println(setChar(str));
 
+    // System.out.println(process)
+
 }
+
+//Java 14
+// static String process (int input){
+//     return switch(input){
+//         case 1 -> "first",
+//         case 2 -> "second",
+//         default ->"whatever"
+//     }
+// }
 
 public static Boolean findDups(String str) {
     boolean[] result = new boolean [128];
